@@ -80,53 +80,73 @@
 thead tr th{
   text-align: center;
 }
-.ED {
+.W {
   border-bottom: 1px solid rgba(0,0,0,.1);
   transition: background 0.5s, color 0.5s;
 }
-.ED:hover {
+.W:hover {
   cursor: pointer;
-  background-color: rgb(253, 182, 241);
+  background-color: #1A1F2B;
   color: white
 }
-.lyrics-content {
+.lyrics-content1 {
   display: none;
   padding: 10px;
   background-color: #f0f0f0;
 }
-.C {
+.L {
   border-bottom: 1px solid rgba(0,0,0,.1);
   transition: background 0.5s, color 0.5s;
 }
-.C:hover {
+.L:hover {
   cursor: pointer;
-  background-color: #831b1b;
+  background-color: #C3B1E1;
   color: white;
 }
-.CP {
+.lyrics-content2 {
+  display: none;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+.D {
   border-bottom: 1px solid rgba(0,0,0,.1);
   transition: background 0.5s, color 0.5s;
 }
-.CP:hover {
+.D:hover {
   cursor: pointer;
-  background-color: #B2BEB5;
+  background-color: #FFD700;
   color: white;
 }
-.ID {
+.lyrics-content3 {
+  display: none;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+.Y {
   border-bottom: 1px solid rgba(0,0,0,.1);
   transition: background 0.5s, color 0.5s;
 }
-.ID:hover {
+.Y:hover {
   cursor: pointer;
-  background-color: #222;
+  background-color: #BFC9CA ;
   color: white;
 }
-.SM {
+.lyrics-content4 {
+  display: none;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+.YB {
   border-bottom: 1px solid rgba(0,0,0,.1);
   transition: background 0.5s, color 0.5s;
 }
-.SM:hover {
+.YB:hover {
   cursor: pointer;
-  background-color: rgb(59, 167, 163);
+  background-color: #0077B6;
   color: white;
+}
+.lyrics-content5 {
+  display: none;
+  padding: 10px;
+  background-color: #f0f0f0;
 }

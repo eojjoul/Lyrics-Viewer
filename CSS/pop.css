@@ -90,7 +90,7 @@ thead tr th{
   background-color: rgb(253, 182, 241);
   color: white
 }
-.lyrics-content {
+.lyrics-content1 {
   display: none;
   padding: 10px;
   background-color: #f0f0f0;
@@ -104,6 +104,11 @@ thead tr th{
   background-color: #831b1b;
   color: white;
 }
+.lyrics-content2 {
+  display: none;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
 .CP {
   border-bottom: 1px solid rgba(0,0,0,.1);
   transition: background 0.5s, color 0.5s;
@@ -112,6 +117,11 @@ thead tr th{
   cursor: pointer;
   background-color: #B2BEB5;
   color: white;
+}
+.lyrics-content3 {
+  display: none;
+  padding: 10px;
+  background-color: #f0f0f0;
 }
 .ID {
   border-bottom: 1px solid rgba(0,0,0,.1);
@@ -122,6 +132,11 @@ thead tr th{
   background-color: #222;
   color: white;
 }
+.lyrics-content4 {
+  display: none;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
 .SM {
   border-bottom: 1px solid rgba(0,0,0,.1);
   transition: background 0.5s, color 0.5s;
@@ -130,4 +145,9 @@ thead tr th{
   cursor: pointer;
   background-color: rgb(59, 167, 163);
   color: white;
+}
+.lyrics-content5 {
+  display: none;
+  padding: 10px;
+  background-color: #f0f0f0;
 }

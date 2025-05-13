@@ -1,0 +1,90 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px; /* 제목 + 로고 영역 높이만큼 설정 */
+    overflow: hidden; /* 이게 핵심!! */
+    z-index: 999;
+    background-color: white; /* 덮어씌우기 */
+    border-bottom: 1px solid #ccc;
+}
+
+/* 로고 위치 고정 - 항상 왼쪽 위 */
+#change {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    z-index: 10; /* 로고가 다른 콘텐츠 위에 오도록 z-index 조정 */
+}
+
+/* 제목은 가운데 */
+#title, .pop {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    top: 20px;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    /* 👇 이거 추가해주면 더 안정감 있게 가려짐 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+  }
+  
+
+/* 콘텐츠 영역 */
+.mid {
+    text-align: center;
+    padding-top: 120px; /* 제목 영역만큼 더 확보 */
+  }
+
+.menu ul{
+    display: flex;
+    justify-content: center; /* 가운데 정렬 */
+    gap: 20px; /* 항목 사이 간격 */
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.menu ul li a {
+    width: auto; /* 고정 너비 필요 없음 */
+    padding: 10px 20px;
+    background-color: #eee;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.5s, color 0.5s;
+}
+
+.menu ul li a:hover {
+    background-color: #222;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+}
